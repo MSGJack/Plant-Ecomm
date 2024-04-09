@@ -4,7 +4,7 @@ Genreal Information
 
 This emommerce app allows a user to perform any CRUD operation such as regiester for an account, login, browse through products, add product to cart and complete a purchase. Went with a plant theme since there's plenty of nurseries in my area and I do enjoy flowers as well. Plus I wanted to use more desert base plants since they're usually overlooked and there is a growing movement of people moving away from lawns to desert gardens. 
 
-Technology Used: JavaScript, PostgreSQL, Express, Node, React, ReactBootStrap.
+Technology Used: JavaScript, PostgreSQL, Express, Node, React, ReactBootStrap. Used ThunderClient to test the routes.
 
 Installation
 For local use, use npm in both the client and server files. Once installed, use npm start for server and npm run dev for client. 
