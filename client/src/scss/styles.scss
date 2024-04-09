@@ -1,0 +1,168 @@
+$color: hsl(184, 76%, 60%);
+
+body,
+:root,
+html {
+  //background-color: $color;
+  background: radial-gradient(gold 5%, brown 35%, lightpink 75%);
+  margin: 0;
+  text-align: center;
+  //animation: colorglow 5s infinite linear alternate;
+}
+
+.radiant-custom {
+  background: radial-gradient(gold 5%, brown 35%, lightpink 60%);
+}
+
+.NavPublic:active {
+  background: blueviolet;
+}
+
+.nav-link {
+  :before {
+    color: red;
+  }
+  :after {
+    color: yellow;
+  }
+  :active {
+    color: hotpink;
+  }
+}
+
+.sun {
+  background-size: cover;
+  background-repeat: no-repeat;
+  outline: thick double cyan;
+  @media only screen and (max-width: 500px) {
+    width: auto;
+    height: auto;
+  }
+}
+
+h2,
+h3 {
+  color: wheat;
+  background-color: black;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.heading {
+  color: black;
+  font-weight: bolder;
+}
+
+#nav-dropdown {
+  color: antiquewhite;
+}
+
+.pad {
+  padding: 1rem;
+  /*background-color: #ffc7c4;*/
+}
+
+.reg {
+  color: honeydew;
+}
+
+.icons {
+  color: antiquewhite;
+  background-color: darkslateblue;
+  size: 2rem;
+  border-radius: 60%;
+}
+.NavPublic {
+  //font-family: "Livvic", sans-serif;
+  font-family: "Noto Serif", serif;
+}
+
+.spin {
+  margin-right: 7px;
+  top: 2px;
+  animation: spin 1s infinite linear;
+}
+/*.fw-bold {
+  background-color: #ffe4c4;
+}*/
+
+.form-label {
+  display: block;
+  text-align: left;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.gradient-custom-5 {
+  background-color: rgba(8, 34, 66, 0.6);
+}
+
+.gradient-custom {
+  background: #a535e6;
+}
+
+.gradient-custom-8 {
+  background: #3514f1;
+}
+
+.create {
+  color: beige;
+  background-color: #ecc65d;
+}
+
+.gradient-custom-3 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(132, 250, 176, 0.5),
+    rgba(143, 211, 244, 0.5)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(132, 250, 176, 0.5),
+    rgba(143, 211, 244, 0.5)
+  );
+}
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(132, 250, 176, 1),
+    rgba(143, 211, 244, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(132, 250, 176, 1),
+    rgba(143, 211, 244, 1)
+  );
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 2rem;
+  color: antiquewhite;
+  background-color: brown;
+  bottom: 0px;
+  width: 100%;
+  font-weight: bolder;
+}
+.form-label {
+  color: black;
+}
+
+u {
+  color: turquoise;
+}
