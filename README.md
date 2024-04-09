@@ -28,5 +28,7 @@ TOKEN_SECRET = YOUR_TOKEN This is for the jsonweb token. Can be any length you w
 SECRET_KEY = YOUR_KEY This is for stripe payments.
 
 Client
+
 Create an env for the client
+
 VITE_KEY = Your_Key  This is the stripe publishable key. Use import.meta.env.VITE_KEY in the file where the key is suppose to be. 
