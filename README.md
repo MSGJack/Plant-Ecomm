@@ -32,3 +32,15 @@ Client
 Create an env for the client
 
 VITE_KEY = Your_Key  This is the stripe publishable key. Use import.meta.env.VITE_KEY in the file where the key is suppose to be. 
+
+Screenshots
+
+![dashboard](https://github.com/MSGJack/Plant-Ecomm/assets/99840785/48410cda-5b0c-4606-b101-8517135c596e)
+
+![products](https://github.com/MSGJack/Plant-Ecomm/assets/99840785/b6dcad36-dc8f-495b-a893-2e48427afbb4)
+
+![productCard](https://github.com/MSGJack/Plant-Ecomm/assets/99840785/c04d43d1-054c-4ac4-a1d8-938d325f6813)
+
+![seeORders](https://github.com/MSGJack/Plant-Ecomm/assets/99840785/69e52481-6014-4207-8a82-a61a9589a86a)
+
+![seeOrder](https://github.com/MSGJack/Plant-Ecomm/assets/99840785/04c4d1c1-9a5e-45d5-b085-07231cd428cf)
